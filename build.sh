@@ -2,4 +2,4 @@
 
 echo "Hello world!"
 
-ls -al
+ls -al ~
