@@ -1,5 +1,10 @@
 #!/bin/bash
 
-echo "Hello world!"
+LINEAGE_DIRECTORY=~/lineage-17.1
 
-ls -al ~/lineage-17.1
+setup() {
+    cd "$LINEAGE_DIRECTORY"
+    . build/envsetup.sh
+}
+
+setup
